@@ -5,6 +5,8 @@ const myEmitter2 = new EventEmitter();
 //하나의 EventEmitter의 객체에 설정된 콜백함수는
 //또다른 객체에 영향을 주지 않음. 서로 독립적임
 
+
+//callback == listener == eventHandler
 const callbacks = [];
 callbacks[0] = () => { //배열에 이벤트핸들러를 담을 수 있음
   console.log('Success22');
